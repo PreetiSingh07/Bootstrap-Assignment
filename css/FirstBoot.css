@@ -1,0 +1,149 @@
+h1
+{
+  text-align: center;
+  text-shadow: 4px 4px 4px gray;
+  font-size:180px;
+  
+}
+
+/*Login on click*/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+ 
+    height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+
+.footer1
+{
+  display:inline;
+  height:40px;
+  width:40px;
+  margin-left: 7px;
+  margin-top: 20px
+}
+
+.footer{
+  margin-left: 550px;
+}
+
+.images
+{
+  width:180px;
+}
+#myCarousel{
+  width:100%;
+}
+.image1
+{
+  width:290px;
+  height:300px;
+}
+.image2
+{
+  width:400px;
+  height:250px;
+}
+
+
+/*SecondBS*/
+
+
+.btn.btn-info.btnn
+{
+  background-color: white;
+  border-color: white;
+  display: block;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.bg-4
+{
+  background-color: black;
+  height:100px;
+}
+
+
+
+/*FirstBS*/
+.media-object
+{
+  width:70px;
+  height:70px;
+}
+
+.col-image1
+{
+  width:100%;
+  height:300px;
+  display: block;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.img6
+{
+  height:300px;
+  width:100%;
+}
+
+@media only screen and (max-width: 600px)
+{
+  #maincontainer
+  {
+    background-color: #b9c0cc;
+  }
+}
